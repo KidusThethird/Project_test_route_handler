@@ -6,3 +6,7 @@ Content-Type: application/json
     "email": "john@example.com",
     "message": "This is a test message."
 }
+
+###
+
+GET http://localhost:9000/
