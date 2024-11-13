@@ -12,7 +12,7 @@ app.get('/', (req,res)=>{
 // POST route to receive and log data
 app.post('/notifyme', (req, res) => {
     console.log('Received POST request:', req.body); // Log the request body
-    res.status(200).send('POST request received and logged.');
+    res.status(200).json(req.body); // Send the received JSON data as response
 });
 
 // Start the server
